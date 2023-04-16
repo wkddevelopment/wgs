@@ -1,0 +1,37 @@
+{
+  "name": "wgs_lehrplan_maker",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Stefan Bartl",
+  "contact": "wkd.development@gmail.com",
+  "description": "Ein Online-Lehrplan-Builder zur Einteilung von Unterrichtseinheiten und Trainer: innen.",
+  "icon": "public/wgs__medien/gs_logo.jpeg",
+  "keywords": [],
+  "license": "",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/wkddevelopment/wgs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sass-w": "dart-sass --watch styles/sass:styles"
+  },
+  "dependencies": {
+    "next": "^13.3.0",
+    "next-images": "^1.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+    "devDependencies": {
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "dart-sass": "^1.25.0",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "typescript": "^5.0.4"
+  }
+}
