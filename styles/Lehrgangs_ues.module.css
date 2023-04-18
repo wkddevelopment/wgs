@@ -1,0 +1,29 @@
+/* ==================  
+?    ===  Colour-Palette  ===
+.     ================== */
+/* filter: brightness(0) saturate(100%) invert(44%) sepia(24%) saturate(4068%) hue-rotate(1deg) brightness(98%) contrast(106%); */
+/* filter: brightness(0) saturate(100%) invert(19%) sepia(63%) saturate(4179%) hue-rotate(293deg) brightness(123%) contrast(136%); */
+/*? === design === */
+/*? === text === */
+/* futura: font-family: futura-pt,sans-serif; */
+@import url("https://use.typekit.net/izw3hmc.css");
+.lehrgangsUES_container {
+  display: flex;
+  flex-direction: column;
+}
+.lehrgangsUES_container > h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.lehrgangsUES_container .ebene_0 {
+  color: #0000fa;
+  outline: solid 2px #0000fa;
+}
+.lehrgangsUES_container .ebene_0 .ebene_1 {
+  min-height: 50%;
+  outline: solid 2px #660066;
+  color: #660066;
+}
+
+/*# sourceMappingURL=Lehrgangs_ues.module.css.map */

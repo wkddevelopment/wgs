@@ -7,5 +7,12 @@
 /*? === text === */
 /* futura: font-family: futura-pt,sans-serif; */
 @import url("https://use.typekit.net/izw3hmc.css");
+.home_container > .auswahl {
+  display: flex;
+  gap: 0.5rem;
+}
+.home_container > .auswahl > label > input {
+  margin-left: 0.5rem;
+}
 
 /*# sourceMappingURL=Home.module.css.map */

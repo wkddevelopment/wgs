@@ -1,1 +1,16 @@
 @import './ColorsAndDesign.scss';
+
+
+.home_container {
+    > .auswahl{
+        display: flex;
+        gap: .5rem;
+
+        > label {
+            > input {
+                margin-left: .5rem;
+            }
+        }
+        
+    }
+}

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/ColorsAndDesign.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAkB+B;AAGM;AAIrC;AASA;AAaA;AACQ","file":"Home.module.css"}
+{"version":3,"sourceRoot":"","sources":["sass/ColorsAndDesign.scss","sass/Home.module.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAkB+B;AAGM;AAIrC;AASA;AAaA;AACQ;AC5CJ;EACI;EACA;;AAGI;EACI","file":"Home.module.css"}
