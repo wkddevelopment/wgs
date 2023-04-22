@@ -11,7 +11,7 @@
   display: flex;
   gap: 0.5rem;
 }
-.home_container > .auswahl > label > input {
+.home_container > .auswahl > label > button {
   margin-left: 0.5rem;
 }
 

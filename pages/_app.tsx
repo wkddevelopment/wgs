@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
-import { store, RootState, AppDispatch } from '../redux/store'
+import { store } from '../redux/store'
 import { Provider } from 'react-redux'
 
 function App({ Component, pageProps }: AppProps) {

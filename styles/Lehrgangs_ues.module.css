@@ -10,6 +10,7 @@
 .lehrgangsUES_container {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 .lehrgangsUES_container > h1 {
   text-align: center;
@@ -20,10 +21,29 @@
   color: #0000fa;
   outline: solid 2px #0000fa;
 }
-.lehrgangsUES_container .ebene_0 .ebene_1 {
-  min-height: 50%;
+
+.ebene_1_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   outline: solid 2px #660066;
-  color: #660066;
+  min-height: 80vh;
+}
+.ebene_1_container > .ebene_1 {
+  margin: 1rem;
+  text-align: center;
+}
+.ebene_1_container > .ebene_1_1 {
+  color: #1991d2;
+  outline: solid 2px pink;
+}
+.ebene_1_container > .ebene_1_2 {
+  color: red;
+  outline: solid 2px pink;
+}
+
+.ebenenBtn {
+  width: fit-content;
+  height: 2rem;
 }
 
 /*# sourceMappingURL=Lehrgangs_ues.module.css.map */

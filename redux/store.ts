@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 import jahrgangReducer from './jahrgangSlice'
-import wheelScaleSReducer from './wheelScaleSlice'
+import ebenenReducer from './ebenenSlice'
+import wheelScaleReducer from './wheelScaleSlice'
 
 export const store = configureStore({
   reducer: {
     jahrgang: jahrgangReducer,
-    wheelScale: wheelScaleSReducer,
+    ebene: ebenenReducer,
+    wheelScale: wheelScaleReducer,
     //users: usersReducer
   },
 })

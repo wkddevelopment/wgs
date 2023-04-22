@@ -1,9 +1,12 @@
-import jahrgangReducer from '../redux/jahrgangSlice'
-import wheelScaleReducer from '../redux/wheelScaleSlice'
 import {combineReducers} from 'redux'
+import jahrgangReducer from '../redux/jahrgangSlice'
+import ebenenReducer from '../redux/ebenenSlice'
+import wheelScaleReducer from './wheelScaleSlice'
 
 const allReducers = combineReducers({
     jahrgangReducer: jahrgangReducer,
-    wheelScaleReducer: wheelScaleReducer
+    ebenenReducer: ebenenReducer,
+    wheelScaleReducer: wheelScaleReducer,
 })
+
 export default allReducers
